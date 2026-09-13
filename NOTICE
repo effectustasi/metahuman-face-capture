@@ -1,0 +1,27 @@
+facecap
+Copyright 2026 effectustasi
+
+This product includes software developed by the facecap authors.
+Licensed under the Apache License, Version 2.0 (the "License"); see the LICENSE
+file in this repository or http://www.apache.org/licenses/LICENSE-2.0.
+
+---
+
+Third-party components that this project interoperates with, but does NOT
+redistribute:
+
+  * MetaHuman, RigLogic, the ARKit mapping pose asset
+    (PA_MetaHuman_ARKit_Mapping) and DNA (.dna) files are (C) Epic Games, Inc.
+    and are governed by Epic's own license terms. No MetaHuman content is
+    included in this repository. The scripts under scripts/ regenerate the
+    required tables locally from assets the user is separately licensed to use.
+
+  * Character DNA Pro / meta_human_dna is a third-party Blender addon and must
+    be obtained and installed separately under its own license.
+
+  * MediaPipe and the face_landmarker.task model are (C) Google LLC, licensed
+    under the Apache License 2.0, and are downloaded at install time rather
+    than vendored here.
+
+  * Live Link Face is an application published by Epic Games, Inc. and is used
+    only as a network data source over UDP.

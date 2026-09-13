@@ -1,0 +1,12 @@
+{
+ "_aciklama": "Kalibrasyon profili. detect.py --profile veya elle bake ayarlari icin. 'neutral' bos birakilirsa bake operator'u ilk 30 kareden kendi hesaplar.",
+ "neutral": {},
+ "default": {"gain": 1.0, "deadzone": 0.02, "clamp_min": 0.0, "clamp_max": 1.0},
+ "channels": {
+  "eyeBlinkLeft":  {"gain": 1.4, "deadzone": 0.15, "clamp_min": 0.0, "clamp_max": 1.0},
+  "eyeBlinkRight": {"gain": 1.4, "deadzone": 0.15, "clamp_min": 0.0, "clamp_max": 1.0},
+  "cheekPuff":     {"gain": 0.6, "deadzone": 0.20, "clamp_min": 0.0, "clamp_max": 1.0},
+  "jawOpen":       {"gain": 1.0, "deadzone": 0.05, "clamp_min": 0.0, "clamp_max": 1.0}
+ },
+ "mirror": false
+}

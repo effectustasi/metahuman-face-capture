@@ -1,0 +1,36 @@
+# --- virtualenvs -------------------------------------------------------------
+.venv/
+detector/.venv/
+
+# --- python ------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# --- third-party model weights (downloaded, see README) ----------------------
+detector/models/*.task
+models/
+*.pth
+*.onnx
+
+# --- Epic Games / MetaHuman derived data -------------------------------------
+# Extracted from a MetaHuman DNA file and from Epic's ARKit posemap asset.
+# That content is licensed by Epic and must not be redistributed. Regenerate it
+# locally from your own character with scripts/01..06 -- see README.
+mapping/_generated/
+mapping/arkit_to_mh.json
+
+# --- captured takes and local calibration ------------------------------------
+takes/
+*.jsonl
+!tests/fixtures/*.jsonl
+charface_profile.json
+profile.json
+
+# --- editors / OS ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+blender_addon/*.zip

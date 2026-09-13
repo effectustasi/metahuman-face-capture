@@ -1,0 +1,15 @@
+# AYRI venv. Blender'in python'una ASLA kurulmaz -- protobuf/numpy
+# catismasi Blender'i bozar. Bkz. CLAUDE.md.
+#
+# Python 3.11 gerekli:
+#   - mediapipe 3.13/3.14 icin wheel yayinlamiyor
+#   - addon'un DNA binding'leri de py311 (ve py313) olarak derlenmis,
+#     yani 3.11 secilirse DNA araclari bu venv'den de kullanilabiliyor
+#
+# Kurulum:
+#   py -3.11 -m venv detector/.venv
+#   detector/.venv/Scripts/python -m pip install -r detector/requirements.txt
+
+mediapipe>=0.10.14,<0.11
+opencv-python>=4.9
+numpy<2.0

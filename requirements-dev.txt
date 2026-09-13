@@ -1,0 +1,17 @@
+# facecap gelistirme/test ortami (.venv, Python 3.14)
+#
+# torch BURADA da kurulu -- ust projenin venv'inden ODUNC ALINMIYOR.
+# Gerekce: core/riglogic_torch.py artik facecap'in gercek bagimliligi;
+# ust projenin venv'i degisirse facecap sessizce bozulur.
+#
+# Blackwell (RTX 50, sm_120) icin cu128 wheel'i SART. Varsayilan index'ten
+# gelen torch bu kartta "no kernel image is available" veriyor.
+#
+#   .venv/Scripts/python -m pip install -r requirements-dev.txt
+#   .venv/Scripts/python -m pip install --index-url https://download.pytorch.org/whl/cu128 torch
+#
+# Dogrulama (sadece is_available() yetmez, gercek kernel kosmali):
+#   .venv/Scripts/python -c "import torch; x=torch.randn(512,512,device='cuda'); print((x@x).sum())"
+
+pytest>=8
+numpy>=1.26
