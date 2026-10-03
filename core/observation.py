@@ -1,6 +1,6 @@
 """MediaPipe landmark'larini karakterin uzayina tasir.
 
-Neden ayri bir katman: gozlem SENIN yuzun, model ICARDI'nin yuzu. Ham
+Neden ayri bir katman: gozlem SENIN yuzun, model hedef karakterin yuzu. Ham
 konumlari karsilastirirsak cozucu ifade kontrollerini kimlik farkini
 kapatmak icin harcar -- burun daha genisse "burun genislet" kontrolunu
 sonuna kadar acar ve ifade bilgisi kaybolur.

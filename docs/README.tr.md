@@ -329,7 +329,7 @@ MetaHuman Animator'un yaptigi is bu.
 
 **Ileri model karakterin KENDI DNA'sindan cikarilmali.** Varsayilan `head.dna` ile
 cikarildiginda Blender dunyasina oturtma olcegi 0.010565 cikiyordu (0.01 olmali,
-%5.7 sapma), artik hata 2.75 mm. Ayni olcum Icardi DNA'siyla 0.009994 ve 0.47 mm --
+%5.7 sapma), artik hata 2.75 mm. Ayni olcum hedef karakter DNA'siyla 0.009994 ve 0.47 mm --
 5.8 kat iyi. Baska bir kafayi modellemek sessizce olan, ama her seyi bozan hata.
 
 ```bash
