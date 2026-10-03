@@ -521,3 +521,10 @@ This project interoperates with, but does not redistribute, the following:
 [Apache License 2.0](LICENSE).
 
 The Turkish original of this document is kept at [docs/README.tr.md](docs/README.tr.md).
+
+## More tools by effectustasi
+
+- [agent-receipts](https://github.com/effectustasi/agent-receipts): Skills that make AI coding agents prove "done" with real test output
+- [blender-dlss5-neural-rendering](https://github.com/effectustasi/blender-dlss5-neural-rendering): Blender viewport and renders through DLSS 5 neural rendering
+- [autodesk-inventor-mcp](https://github.com/effectustasi/autodesk-inventor-mcp): Connect AI agents to a live Autodesk Inventor session
+- [unreal-groom-alembic-exporter](https://github.com/effectustasi/unreal-groom-alembic-exporter): Export UE Groom assets (MetaHuman hair) to Alembic
